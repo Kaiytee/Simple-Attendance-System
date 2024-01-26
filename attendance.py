@@ -1,3 +1,4 @@
+# Created by Stefen Labinay | BSCS 3-5
 import tkinter
 import tkinter as tk
 import mysql.connector
@@ -187,5 +188,7 @@ button = tkinter.Button(frame, width=30, borderwidth=0, fg="black", bg="white", 
 button.pack(padx=10, pady=10)
 
 main_window.mainloop()
+
+# Created by Stefen Labinay | BSCS 3-5
 
 
