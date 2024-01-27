@@ -108,7 +108,7 @@ def second_window():
                 cursor.execute("INSERT INTO attendance (StudentNumber, name, status) VALUES (%s, %s, %s)", (studentNum, name, status))
                 db_connection.commit()
                 self.clear_entries()
-                messagebox.showinfo("Success", "Operation completed successfully!")
+                messagebox.showinfo("Success", "Record added successfully!")
                 self.display_records_in_treeview()
             else:
                 messagebox.showwarning("Warning!", "Please enter the required data!")
